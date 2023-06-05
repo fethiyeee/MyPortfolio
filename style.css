@@ -1,0 +1,179 @@
+body{
+    height: 100vh;
+    /* sayfanin gorunen yuzunu kaplar */
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+    /* background-color: aqua; */
+
+}
+
+
+.header .container{
+    width: 80%;
+    margin:auto;
+    /* satiri ortalamak icin */
+
+    /* background-color: aqua; */
+
+    display: flex;
+
+    justify-content: space-between;
+    /* yatayda hizaladik  */
+    align-items:center;
+    /* dikeyde ortaladik */
+}
+
+.header{
+/* background-color: rgb(97, 38, 78); */
+
+background-image: linear-gradient(45deg, rgb(128, 63, 133), rgba(163, 204, 194, 0.4), rgba(177, 99, 163, 0.4),rgba(170, 180, 178, 0.7));
+/* border-bottom: 5px solid rgb(180, 137, 156); */
+border: 2px solid rgb(59, 4, 70);
+
+/* burada kirmizi seriti ekledik */
+
+height: 10vh;
+
+}
+
+
+.header ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Kalam', cursive;
+    justify-content: space-between;
+   
+}
+.nav ul li a:hover {
+    color: rgb(99, 38, 117); /* Mousla üzerine gelindiğinde link metni mor olacak */
+  }
+  .nav ul li a {
+    font-weight: bold; 
+    /* Link metnini kalın (bold) yapar */
+  }
+
+
+.header .nav{
+    /* background-color: bisque; */
+    width: 350px;
+}
+
+
+.header a{
+    text-decoration: none;
+    color: white;
+
+    /* linklerin rengi */
+}
+
+.branding{
+    color: white;
+    font-family: 'Kalam', cursive;
+    
+    
+
+}
+.spanColor{
+    color: rgb(99, 38, 117);
+
+    /* burada soyismini kirmizi yaptik */
+}
+
+
+.main{
+    background-image: linear-gradient(45deg,rgba(195, 233, 228, 0.7), rgba(228, 171, 218, 0.4)), url("./masa-arkaplan.jpg");
+    background-size: cover;
+    height: 200vh;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    margin: 50px;
+    border: 2px solid rgb(59, 4, 70);
+    
+}
+.main2{
+    background-image: linear-gradient(90deg,rgba(189, 164, 191, 0.7), rgba(189, 90, 171, 0.4)), url("./kupa.jpg");
+    background-size: cover;
+    height: 200vh;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    margin: 50px;
+    border: 2px solid rgb(59, 4, 70);
+    
+}
+
+.main h1{
+
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    /* margin: 10px; */
+    padding-top: 150px;
+    color: rgb(72, 26, 86);
+    
+
+}
+.main h2{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: rgb(72, 26, 86);
+
+    margin-top: 100px;
+    
+}
+.main2 h2{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: rgb(72, 26, 86);
+
+    margin-top: 100px;
+    
+ 
+}
+
+
+.main p{
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    
+}
+.main2 p{
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    
+}
+
+.main2 img{
+    width: 150px;
+   
+    border-radius: 30%;
+
+    margin-top: 50px;
+
+
+}
+.center{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+table{
+    margin: auto;
+    text-align: left;
+}
+
+.icon{
+    font-size: 40px;
+}
+
+.label{
+    font-size: 40px;
+}
+
+
